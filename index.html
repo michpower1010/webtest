@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>고려사이버대학교 장학제도</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <style>
+    .hero-section {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .scholarship-card {
+      transition: transform 0.2s ease-in-out;
+    }
+    .scholarship-card:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- 헤더 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">고려사이버대학교</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#overview">장학 개요</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#details">장학 혜택</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">문의하기</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 메인 섹션 -->
+  <header class="hero-section">
+    <h1>고려사이버대학교 장학제도</h1>
+    <p>모든 학생이 꿈을 실현할 수 있도록 다양한 장학제도를 운영합니다.</p>
+    <a href="#details" class="btn btn-light btn-lg mt-3">장학 제도 알아보기</a>
+  </header>
+
+  <!-- 장학 개요 -->
+  <section id="overview" class="container my-5">
+    <h2 class="text-center">장학 개요</h2>
+    <p class="text-center">
+      고려사이버대학교는 학업 성취와 재정적 지원이 필요한 학생들을 위해 다양한 장학 프로그램을 제공합니다. 
+      아래의 혜택을 확인해보세요.
+    </p>
+  </section>
+
+  <!-- 장학 혜택 카드 -->
+  <section id="details" class="container my-5">
+    <h2 class="text-center mb-4">장학 혜택</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card scholarship-card">
+          <div class="card-body">
+            <h5 class="card-title">신입생 장학금</h5>
+            <p class="card-text">신입생을 대상으로 첫 학기 등록금을 50% 지원합니다.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card scholarship-card">
+          <div class="card-body">
+            <h5 class="card-title">성적우수 장학금</h5>
+            <p class="card-text">우수한 학업 성적을 거둔 재학생에게 장학금을 지급합니다.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card scholarship-card">
+          <div class="card-body">
+            <h5 class="card-title">가계곤란 장학금</h5>
+            <p class="card-text">경제적으로 어려운 학생들에게 학비를 지원합니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 문의 섹션 -->
+  <section id="contact" class="container my-5">
+    <h2 class="text-center">문의하기</h2>
+    <p class="text-center">
+      자세한 문의는 학교 장학담당 부서로 연락하시기 바랍니다.
+    </p>
+    <div class="text-center">
+      <a href="mailto:scholarship@cuk.ac.kr" class="btn btn-primary">이메일로 문의하기</a>
+    </div>
+  </section>
+
+  <!-- 푸터 -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 고려사이버대학교. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
